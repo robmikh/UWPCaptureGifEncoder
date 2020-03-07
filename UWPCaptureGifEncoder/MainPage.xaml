@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="UWPCaptureGifEncoder.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPCaptureGifEncoder"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <ToggleButton x:Name="MainToggleButton" Content="Record Gif" HorizontalAlignment="Center" Checked="MainToggleButton_Checked" Unchecked="MainToggleButton_Unchecked" Margin="10"/>
+            <ToggleButton x:Name="OverlayButton" Content="Toggle Compact Overlay" HorizontalAlignment="Center" Click="OverlayButton_Click" Margin="10" />
+        </StackPanel>
+        
+    </Grid>
+</Page>

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29827.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWPCaptureGifEncoder", "UWPCaptureGifEncoder\UWPCaptureGifEncoder.csproj", "{2597239E-9A72-4BD6-9161-CBAB156EBCFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Debug|ARM.Build.0 = Debug|ARM
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Debug|ARM.Deploy.0 = Debug|ARM
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Debug|ARM64.Build.0 = Debug|ARM64
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Debug|x64.ActiveCfg = Debug|x64
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Debug|x64.Build.0 = Debug|x64
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Debug|x64.Deploy.0 = Debug|x64
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Debug|x86.ActiveCfg = Debug|x86
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Debug|x86.Build.0 = Debug|x86
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Debug|x86.Deploy.0 = Debug|x86
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Release|ARM.ActiveCfg = Release|ARM
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Release|ARM.Build.0 = Release|ARM
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Release|ARM.Deploy.0 = Release|ARM
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Release|ARM64.ActiveCfg = Release|ARM64
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Release|ARM64.Build.0 = Release|ARM64
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Release|ARM64.Deploy.0 = Release|ARM64
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Release|x64.ActiveCfg = Release|x64
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Release|x64.Build.0 = Release|x64
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Release|x64.Deploy.0 = Release|x64
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Release|x86.ActiveCfg = Release|x86
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Release|x86.Build.0 = Release|x86
+		{2597239E-9A72-4BD6-9161-CBAB156EBCFB}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2347920A-4DE1-44D3-BB73-5369FDC848EC}
+	EndGlobalSection
+EndGlobal
