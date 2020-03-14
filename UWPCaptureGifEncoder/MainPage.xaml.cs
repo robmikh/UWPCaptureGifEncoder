@@ -116,12 +116,8 @@ namespace UWPCaptureGifEncoder
                         CpuAccessFlags = SharpDX.Direct3D11.CpuAccessFlags.None,
                         OptionFlags = SharpDX.Direct3D11.ResourceOptionFlags.None
                     };
-                    var blankTexture = new SharpDX.Direct3D11.Texture2D(d3dDevice, description);
-                    using (var renderTargetView = new SharpDX.Direct3D11.RenderTargetView(d3dDevice, blankTexture))
-                    {
-                        d3dDevice.ImmediateContext.ClearRenderTargetView(renderTargetView, new SharpDX.Mathematics.Interop.RawColor4(0, 0, 0, 1));
-                    }
                     var gifTexture = new SharpDX.Direct3D11.Texture2D(d3dDevice, description);
+                    var renderTargetView = new SharpDX.Direct3D11.RenderTargetView(d3dDevice, gifTexture);
 
                     // Encode frames as they arrive. Because we created our frame pool using 
                     // Direct3D11CaptureFramePool::CreateFreeThreaded, this lambda will fire on a different thread
@@ -143,7 +139,7 @@ namespace UWPCaptureGifEncoder
 
                                 var region = new SharpDX.Direct3D11.ResourceRegion(0, 0, 0, width, height, 1);
 
-                                d3dDevice.ImmediateContext.CopyResource(blankTexture, gifTexture);
+                                d3dDevice.ImmediateContext.ClearRenderTargetView(renderTargetView, new SharpDX.Mathematics.Interop.RawColor4(0, 0, 0, 1));
                                 d3dDevice.ImmediateContext.CopySubresourceRegion(sourceTexture, 0, region, gifTexture, 0);
                             }
 
